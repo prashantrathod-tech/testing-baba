@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -32,10 +33,9 @@ public class Practice_elements_test extends BaseLibrary
 	{
 		ob.intro();
 	}
-	/*@AfterTest
+	@AfterTest
 	public void close()
 	{
 		driver.quit();
 	}
-*/
 }
